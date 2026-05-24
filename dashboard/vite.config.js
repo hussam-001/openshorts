@@ -7,7 +7,8 @@ export default defineConfig({
   server: {
     allowedHosts: [
       'openshorts.app',
-      'www.openshorts.app'
+      'www.openshorts.app',
+      'openshorts.totooly.com'
     ],
     proxy: {
       '/api': {
